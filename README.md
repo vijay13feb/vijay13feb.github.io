@@ -60,3 +60,8 @@ didn't give me, so they still need your input:
   the `<link>` tags in each page's `<head>` — no local files needed.
 - Colors, spacing, and fonts are all controlled by the CSS variables at
   the top of `style.css` if you want to retheme later.
+
+  cd ~/Videos/vijay-website
+   git add .
+   git commit -m "Add new publication"
+   git push
