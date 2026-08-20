@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WiLight | Vijay Kumar Singh</title>
+<meta name="description" content="WiLight: A Lightweight and Adaptive WiFi Sensing Framework for Real-Time HAR.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+  <header class="site-header">
+    <a class="brand" href="../index.html">
+      <span class="avatar avatar-sm">V</span>
+      <span class="brand-name">Vijay Kumar Singh</span>
+    </a>
+    <nav class="site-nav">
+      <a href="news.html">News</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="publications.html">Publications</a>
+      <a href="cv.pdf">CV</a>
+    </nav>
+  </header>
+  <div class="waveform-divider"></div>
+
+  <h1 class="page-title" style="margin-bottom:8px;">WiLight: A Lightweight and Adaptive WiFi Sensing Framework for Real-Time HAR</h1>
+  <p class="project-authors">Vijay Kumar Singh, Kaveenraj G, Mukulika Maity  </p>
+
+  <hr class="rule-full">
+
+  <p class="eyebrow">Resources</p>
+  <div class="resource-links">
+    <!-- <span class="disabled">Paper (under review)</span> -->
+        <ul>
+        <li> <a href="https://dl.acm.org/doi/pdf/10.1145/3712271"  rel="noopener">Full Paper</a></li>
+         <!-- <br> -->
+        <!-- <li> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10041341"  rel="noopener">Poster Paper</a></li> -->
+        <ul>
+  </div>
+  <hr class="rule-full">
+
+  <p class="eyebrow">Abstract</p>
+  <p class="bio">
+    With the growing use cases of CSI-based WiFi sensing, future WiFi networks are moving towards integrating sensing 
+    andcommunication (ISAC) by sharing the same frequency resources between data communication and WiFi sensing. 
+    However,it is known that WiFi sensing is detrimental to WiFi communication due to its expensive use of frequency 
+    resources forcollecting CSI samples, limiting its effectiveness in ISAC. To address this challenge, we propose 
+    Slim-Sense, anovel approachto resource saving while maximizing the sensing accuracy. We first demonstrate that 
+    it is possible to perform accurateWiFi sensing without using the entire bandwidth. In fact, we can obtain close 
+    to maximum accuracy while utilizing only24.42% of the bandwidth and 25% of the antennas. Obtaining such accuracy 
+    at low bandwidth requires the selection ofthe antennas and bandwidth that are most relevant for sensing activities.
+     One of Slim-Sense’s highlights is using a novelapproach consisting of a Sparse Group Regularizer (SGR) and 
+     Hierarchical Reinforcement learning (HRL) technique to selectthe minimum optimal bandwidth resources for sensing 
+     while maximizing sensing accuracy. Considering the stochastic natureof the sensing environment and the difference 
+     in requirements of different sensing applications, Slim-Sense provides anenvironment and application-specific 
+     bandwidth resources for sensing. We evaluate Slim-Sense with four different WiFi CSIdatasets, each varying in 
+     sensing environment and application, including one we collected in 46 different environmentalsettings. 
+     The experimental evaluation shows that Slim-Sense saves up to 92.9% resources while incurring < 5% 
+     reductionin sensing accuracy compared to using entire spectrum resources. We show that Slim-Sense is 
+     generalized to differentenvironments and sensing models. Compared to the state-of-art solution, 
+     Slim-Sense outperforms 
+    and achieves a maximumimprovement of 28.75% in resource-saving and 42.18% in sensing accuracy.
+  </p>
+
+  <hr class="rule-full">
+
+  <p class="eyebrow">Publications</p>
+
+  <p>
+    <ul>
+        <li> ACM IMWUT 2025 </li>
+        <li> UbiComp 2025 (Presented) </li>
+        <li> Patent 2026, Application No. 202511056716 </li>
+        <!-- <li> ACM TOSN' 2026 (Publish Soon) </li> -->
+        
+      </ul>
+  </p>
+  <hr class="rule-full">
+
+   <p class="eyebrow">Overview</p>
+  <div class="figure">
+    <img src="plots/wifituned_overview.png" alt="WiFiTuned Overview" style="max-width:650px;">
+    <p class="figure-caption">Complete Overview</p>
+  </div> 
+
+  <p class="eyebrow">Architecture</p>
+  <div class="figure">
+    <img src="plots/wifituned_end.png" alt="WiFiTuned Architecture" style="max-width:650px;">
+    <p class="figure-caption">Complete Overview</p>
+  </div> 
+
+  <!-- <div class="figure-grid">
+    <div class="figure">
+      <img src="wilight/fig1.jpg" alt="">
+      <p class="figure-caption">Doppler extraction</p>
+    </div>
+    <div class="figure">
+      <img src="wilight/fig2.jpg" alt="">
+      <p class="figure-caption">Pruned model</p>
+    </div>
+  </div>
+
+  <hr class="rule-full"> -->
+  
+
+  <p class="eyebrow">Citation</p>
+  <pre class="bibtex"><code><span class="bx-type">@article</span>{10.1145/3712271,
+    <span class="bx-key">author</span> = {<span class="bx-value">Singh, Vijay Kumar and Walecha, Aryan and Gera, Ashutosh and Jay, Rishabh and Bhattacharya, Arani and Maity, Mukulika</span>},
+    <span class="bx-key">title</span> = {<span class="bx-value">Slim-Sense: A Resource Efficient WiFi Sensing Framework towards Integrated Sensing and Communication</span>},
+    <span class="bx-key">year</span> = {<span class="bx-value">2025</span>},
+    <span class="bx-key">issue_date</span> = {<span class="bx-value">March 2025</span>},
+    <span class="bx-key">publisher</span> = {<span class="bx-value">Association for Computing Machinery</span>},
+    <span class="bx-key">address</span> = {<span class="bx-value">New York, NY, USA</span>},
+    <span class="bx-key">volume</span> = {<span class="bx-value">9</span>},
+    <span class="bx-key">number</span> = {<span class="bx-value">1</span>},
+    <span class="bx-key">url</span> = {<span class="bx-value">https://doi.org/10.1145/3712271</span>},
+    <span class="bx-key">doi</span> = {<span class="bx-value">10.1145/3712271</span>},
+    <span class="bx-key">journal</span> = {<span class="bx-value">Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.</span>},
+    <span class="bx-key">month</span> = mar,
+    <span class="bx-key">articleno</span> = {<span class="bx-value">17</span>},
+    <span class="bx-key">numpages</span> = {<span class="bx-value">33</span>}
+}</code></pre>
+
+  <hr class="rule-full">
+
+  <div class="tag-row">
+    <span class="pub-tag">WiFi Sensing</span>
+    <span class="pub-tag">Human Activity Recognition</span>
+    <span class="pub-tag">Edge AI</span>
+    <span class="pub-tag">Signal Processing</span>
+  </div>
+
+  <footer class="site-footer">
+    <span>&copy; 2026 Vijay Kumar Singh</span>
+    <a href="#top">Back to top</a>
+  </footer>
+
+</div>
+</body>
+</html>

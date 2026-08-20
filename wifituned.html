@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WiFituned | Vijay Kumar Singh</title>
+<meta name="description" content="WiFituned: Harnessing WiFi Sensing for Video-less Assessment of Participants' Engagement during Online Synchronous Meetings.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+  <header class="site-header">
+    <a class="brand" href="../index.html">
+      <span class="avatar avatar-sm">V</span>
+      <span class="brand-name">Vijay Kumar Singh</span>
+    </a>
+    <nav class="site-nav">
+      <a href="news.html">News</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="publications.html">Publications</a>
+      <a href="cv.pdf">CV</a>
+    </nav>
+  </header>
+  <div class="waveform-divider"></div>
+
+  <h1 class="page-title" style="margin-bottom:8px;">WiFituned: Harnessing WiFi Sensing for Video-less Assessment of Participants' Engagement during Online Synchronous Meetings</h1>
+  <p class="project-authors">Vijay Kumar Singh, Ayush Madan Sohini, Madhav Rangaiah, Pragma Kar, Sandip Chakraborty, Mukulika Maity  </p>
+
+  <hr class="rule-full">
+
+  <p class="eyebrow">Resources</p>
+  <div class="resource-links">
+    <!-- <span class="disabled">Paper (under review)</span> -->
+        <ul>
+        <li> <a href="https://dl.acm.org/doi/abs/10.1145/3577190.3614108"  rel="noopener">Full Paper</a></li>
+         <!-- <br> -->
+        <li> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10041341"  rel="noopener">Poster Paper</a></li>
+        <ul>
+  </div>
+  <hr class="rule-full">
+
+  <p class="eyebrow">Abstract</p>
+  <p class="bio">
+    We propose a multi-modal, non-intrusive, and privacy-preserving system WiFiTuned1 for 
+    assessing a behavioral proxy of engagement
+of users during synchronous online meetings. It uses two sensing modalities, 
+i.e., WiFi Channel State Information (CSI) and audio,
+captured over the meeting device (such as a laptop) to assess engagement-related behavioral 
+cues without using any visual information. At its core, WiFiTuned detects the head gestures of the users through WiFi CSI and detects the speaker’s intent through audio. Then,
+it correlates the two modalities to infer the behavioral proxy of the users’ engagement. We evaluate WiFiTuned with 22 users. It infers
+this behavioral proxy with an average accuracy of > 86%. The developed head gesticulation recognition model adapts to different
+users’ positions, locations, and environments by obtaining a classification accuracy of 91.68%. From a thorough usability study of the
+developed platform, we observed that WiFiTuned attains an average usability score of 80.72% on the system usability scale (SUS),
+indicating overall adaptability for real-world usage.
+  </p>
+
+  <hr class="rule-full">
+
+  <p class="eyebrow">Publications</p>
+
+  <p>
+    <ul>
+        <li> ACM ICMI' 2023 </li>
+        <li> COMSNETS' 2023 </li>
+        <li> Demo@COMSNETS' 2024 </li>
+        <li> ACM TOSN' 2026 (Publish Soon) </li>
+        
+      </ul>
+  </p>
+  <hr class="rule-full">
+
+   <p class="eyebrow">Overview</p>
+  <div class="figure">
+    <img src="plots/wifituned_overview.png" alt="WiFiTuned Overview" style="max-width:650px;">
+    <!-- <p class="figure-caption">Complete Overview</p> -->
+  </div> 
+
+  <p class="eyebrow">Architecture</p>
+  <div class="figure">
+    <img src="plots/wifituned_end.png" alt="WiFiTuned Architecture" style="max-width:650px;">
+    <!-- <p class="figure-caption">Complete Overview</p> -->
+  </div> 
+
+  <!-- <div class="figure-grid">
+    <div class="figure">
+      <img src="wilight/fig1.jpg" alt="">
+      <p class="figure-caption">Doppler extraction</p>
+    </div>
+    <div class="figure">
+      <img src="wilight/fig2.jpg" alt="">
+      <p class="figure-caption">Pruned model</p>
+    </div>
+  </div>
+
+  <hr class="rule-full"> -->
+  
+
+  <p class="eyebrow">Citation</p>
+  <pre class="bibtex"><code><span class="bx-type">@inproceedings</span>{10.1145/3577190.3614108,
+      <span class="bx-key">author</span> = {<span class="bx-value">Singh, Vijay Kumar and Kar, Pragma and Sohini, Ayush Madhan and Rangaiah, Madhav and Chakraborty, Sandip and Maity, Mukulika</span>},
+      <span class="bx-key">title</span> = {<span class="bx-value">WiFiTuned: Monitoring Engagement in Online Participation by Harmonizing WiFi and Audio</span>},
+      <span class="bx-key">year</span> = {<span class="bx-value">2023</span>},
+      <span class="bx-key">isbn</span> = {<span class="bx-value">9798400700552</span>},
+      <span class="bx-key">publisher</span> = {<span class="bx-value">Association for Computing Machinery</span>},
+      <span class="bx-key">address</span> = {<span class="bx-value">New York, NY, USA</span>},
+      <span class="bx-key">url</span> = {<span class="bx-value">https://doi.org/10.1145/3577190.3614108</span>},
+      <span class="bx-key">doi</span> = {<span class="bx-value">10.1145/3577190.3614108</span>},
+      <span class="bx-key">booktitle</span> = {<span class="bx-value">Proceedings of the 25th International Conference on Multimodal Interaction</span>},
+      <span class="bx-key">pages</span> = {<span class="bx-value">670&ndash;678</span>},
+      <span class="bx-key">numpages</span> = {<span class="bx-value">9</span>},
+      <span class="bx-key">keywords</span> = {<span class="bx-value">WiFi sensing, engagement detection, multimodal fusion</span>},
+      <span class="bx-key">location</span> = {<span class="bx-value">Paris, France</span>},
+      <span class="bx-key">series</span> = {<span class="bx-value">ICMI '23</span>}
+  }</code></pre>
+
+  <hr class="rule-full">
+
+  <div class="tag-row">
+    <span class="pub-tag">WiFi Sensing</span>
+    <span class="pub-tag">Human Activity Recognition</span>
+    <span class="pub-tag">Edge AI</span>
+    <span class="pub-tag">Signal Processing</span>
+  </div>
+
+  <footer class="site-footer">
+    <span>&copy; 2026 Vijay Kumar Singh</span>
+    <a href="#top">Back to top</a>
+  </footer>
+
+</div>
+</body>
+</html>
